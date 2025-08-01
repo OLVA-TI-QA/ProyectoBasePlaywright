@@ -112,12 +112,12 @@ automation-playwright-pom/
 
 ### Run all tests:
 ```bash
-npm test
+npx playwright test
 ```
 
 ### Run tests in headed mode:
 ```bash
-npm run test:headed
+ npx playwright test --headed
 ```
 
 ### Run specific test file:
